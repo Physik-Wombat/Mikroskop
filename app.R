@@ -56,8 +56,8 @@ ui <- navbarPage(
       # #
       conditionalPanel(condition = "input.typeob == 'Objektiv 100/1,25'",
                        selectInput("breaks", "",
-                                   c("Mit Ãl",
-                                     "Ohne Ãl"))),
+                                   c("Ohne Oel",
+                                     "Mit Oel"))),
       
       radioButtons(
         inputId = "val",
@@ -155,13 +155,13 @@ ui <- navbarPage(
     
     conditionalPanel(
       "input.typeob=='Objektiv 100/1,25'",
-      conditionalPanel("input.breaks=='Mit Ãl'",
+      conditionalPanel("input.breaks=='Mit Oel'",
                        mainPanel(
                          conditionalPanel("input.val=='kein'",
                                           
                                           ((
                                             img(
-                                              src = "MObj100keinPrÃ¤pmitÃl.jpg",
+                                              src = "MObj100keinPrÃ¤pmitOel.jpg",
                                               height = 665,
                                               width = 499
                                             )
@@ -171,13 +171,13 @@ ui <- navbarPage(
     
     conditionalPanel(
       "input.typeob=='Objektiv 100/1,25'",
-      conditionalPanel("input.breaks=='Mit Ãl'",
+      conditionalPanel("input.breaks=='Mit Oel'",
                        mainPanel(
                          conditionalPanel("input.val=='Objektmikrometerskala'",
                                           
                                           ((
                                             img(
-                                              src = "MObj100MikromitÃl.jpg",
+                                              src = "MObj100MikromitOel.jpg",
                                               height = 665,
                                               width = 499
                                             )
@@ -188,13 +188,13 @@ ui <- navbarPage(
     
     conditionalPanel(
       "input.typeob=='Objektiv 100/1,25'",
-      conditionalPanel("input.breaks=='Mit Ãl'",
+      conditionalPanel("input.breaks=='Mit Oel'",
                        mainPanel(
                          conditionalPanel("input.val=='Schweinelunge'",
                                           
                                           ((
                                             img(
-                                              src = "MObj100PrÃ¤pmitÃl.jpg",
+                                              src = "MObj100PrÃ¤pmitOel.jpg",
                                               height = 665,
                                               width = 499
                                             )
@@ -206,13 +206,13 @@ ui <- navbarPage(
     
     conditionalPanel(
       "input.typeob=='Objektiv 100/1,25'",
-      conditionalPanel("input.breaks=='Ohne Ãl'",
+      conditionalPanel("input.breaks=='Ohne Oel'",
                        mainPanel(
                          conditionalPanel("input.val=='kein'",
                                           
                                           ((
                                             img(
-                                              src = "MObj100keinPrÃ¤pohneÃl.jpg",
+                                              src = "MObj100keinPrÃ¤pohneOel.jpg",
                                               height = 665,
                                               width = 499
                                             )
@@ -222,13 +222,13 @@ ui <- navbarPage(
     
     conditionalPanel(
       "input.typeob=='Objektiv 100/1,25'",
-      conditionalPanel("input.breaks=='Ohne Ãl'",
+      conditionalPanel("input.breaks=='Ohne Oel'",
                        mainPanel(
                          conditionalPanel("input.val=='Objektmikrometerskala'",
                                           
                                           ((
                                             img(
-                                              src = "MObj100MikroohneÃl.jpg",
+                                              src = "MObj100MikroohneOel.jpg",
                                               height = 665,
                                               width = 499
                                             )
@@ -238,13 +238,13 @@ ui <- navbarPage(
     
     conditionalPanel(
       "input.typeob=='Objektiv 100/1,25'",
-      conditionalPanel("input.breaks=='Ohne Ãl'",
+      conditionalPanel("input.breaks=='Ohne Oel'",
                        mainPanel(
                          conditionalPanel("input.val=='Schweinelunge'",
                                           
                                           ((
                                             img(
-                                              src = "MObj100PrÃ¤pohneÃl.jpg",
+                                              src = "MObj100PrÃ¤pohneOel.jpg",
                                               height = 665,
                                               width = 499
                                             )
