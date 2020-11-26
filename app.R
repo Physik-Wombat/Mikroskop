@@ -40,7 +40,7 @@ ui <- navbarPage(
   tabPanel(
     strong("Versuch"),
     titlePanel(h4(
-      "Vermessung der Strukturen auf einem PrÃ¤parat"
+      "Vermessung der Strukturen auf einem Praeparat"
     )),
     
     br(),
@@ -61,7 +61,7 @@ ui <- navbarPage(
       
       radioButtons(
         inputId = "val",
-        "PrÃ¤parat",
+        "Praeparat",
         choices = c("kein",
                     "Objektmikrometerskala",
                     "Schweinelunge")
@@ -76,7 +76,7 @@ ui <- navbarPage(
                                  
                                  ((
                                    img(
-                                     src = "MObj10keinPrÃ¤p.jpg",
+                                     src = "MObj10keinPraep.jpg",
                                      height = 665,
                                      width = 499
                                    )
@@ -104,7 +104,7 @@ ui <- navbarPage(
                                  
                                  ((
                                    img(
-                                     src = "MObj10PrÃ¤p.jpg",
+                                     src = "MObj10Praep.jpg",
                                      height = 665,
                                      width = 499
                                    )
@@ -117,7 +117,7 @@ ui <- navbarPage(
                                  
                                  ((
                                    img(
-                                     src = "MObj40keinPrÃ¤p.jpg",
+                                     src = "MObj40keinPraep.jpg",
                                      height = 665,
                                      width = 499
                                    )
@@ -145,7 +145,7 @@ ui <- navbarPage(
                                  
                                  ((
                                    img(
-                                     src = "MObj40PrÃ¤p.jpg",
+                                     src = "MObj40Praep.jpg",
                                      height = 665,
                                      width = 499
                                    )
@@ -161,7 +161,7 @@ ui <- navbarPage(
                                           
                                           ((
                                             img(
-                                              src = "MObj100keinPrÃ¤pmitOel.jpg",
+                                              src = "MObj100keinPraepmitOel.jpg",
                                               height = 665,
                                               width = 499
                                             )
@@ -194,7 +194,7 @@ ui <- navbarPage(
                                           
                                           ((
                                             img(
-                                              src = "MObj100PrÃ¤pmitOel.jpg",
+                                              src = "MObj100PraepmitOel.jpg",
                                               height = 665,
                                               width = 499
                                             )
@@ -212,7 +212,7 @@ ui <- navbarPage(
                                           
                                           ((
                                             img(
-                                              src = "MObj100keinPrÃ¤pohneOel.jpg",
+                                              src = "MObj100keinPraepohneOel.jpg",
                                               height = 665,
                                               width = 499
                                             )
@@ -244,7 +244,7 @@ ui <- navbarPage(
                                           
                                           ((
                                             img(
-                                              src = "MObj100PrÃ¤pohneOel.jpg",
+                                              src = "MObj100PraepohneOel.jpg",
                                               height = 665,
                                               width = 499
                                             )
